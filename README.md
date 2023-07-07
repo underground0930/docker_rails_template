@@ -9,7 +9,8 @@ https://mseeeen.msen.jp/rails-docker/
 ### 新規アプリを作成
 
 ```
-docker-compose run --rm web rails new . --api --force --database=postgresql --skip-turbolinks --skip-test --skip-webpack-install
+# docker-compose run --rm web rails new . --api --force --database=postgresql --skip-turbolinks --skip-test --skip-webpack-install
+docker-compose run --rm web rails new . --force --database=postgresql --skip-turbolinks --skip-test --skip-webpack-install
 ```
 
 ■ オプション:  
